@@ -21,6 +21,17 @@ textarea{
     display: inline-block;
     border-radius: 9999em;
 }
+input[type="submit" i]{
+	font-weight: 500;
+	color: white;
+	margin-top: 3%;
+	border-radius: 50px;
+	background-color: #ff4010;
+	padding: 10px 30px;
+}
+input[type="submit" i]:focus{
+	border-radius: 50px;
+}
 textarea {
 	display: inherit;
 	border-radius: inherit;
@@ -51,6 +62,13 @@ textarea:focus + .this{
 	3px -3px 30px #ea5d1b, 
 	-3px 3px 30px #ff4010;
 	
+}
+h2 , p, h1{
+	color: #fff;
+}
+
+img{
+	margin-top: 5%;
 }
 
 

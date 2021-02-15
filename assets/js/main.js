@@ -2,18 +2,18 @@ let yourMonth = document.getElementById('month')
 let image = document.getElementById('Img')
 let title = document.getElementById('zodiacSign')
 let description = document.getElementById('text')
-let aries = "Today your patience might be tested when one or more of your projects gets put on hold by someone… "
-let tauro = "Your intense energy makes you a great candidate for a leadership position right now, so if you are…"
-let gemini = "If you aren't sure if you are ready to commit to a party, a date, a new job, or anything else that…"
-let cancer = "Too many different elements in your life are overlapping with each other right now—and it's your…"
-let leo = "The issues you'll be dealing with today are very complicated ones—you will have to navigate your…"
-let virgo = "You'll get along best with people who appeal to your more analytical side, today. Surprisingly, all…"
-let libra = "Pick a cultural event that's coming up and get some tickets for it today."
-let scorpio = "Someone will challenge a belief that you've held for a very long time today—and they will say an…"
-let sagittarius = "Someone in your life needs to step up and take on more responsibility—and you need to tell them to...."
-let copricorn = "Breaking the rules is not always a bad thing—especially if the rules limit your creativity."
-let aquarius = "Have you been feeling a bit bored with your life lately? Well, good news! Today offers you a great…"
-let pisces = "Communication is very important today—written, spoken, and even nonverbal body language will all…"
+let aries = "Today your patience might be tested when<br> one or more of your projects gets put on hold by someone… "
+let tauro = "Your intense energy makes you a great <br>candidate for a leadership position right now, so if you are…"
+let gemini = "If you aren't sure if you are ready to <br>commit to a party, a date, a new job, or anything else that…"
+let cancer = "Too many different elements in your life<br> are overlapping with each other right now—and it's your…"
+let leo = "The issues you'll be dealing with today are <br>very complicated ones—you will have to navigate your…"
+let virgo = "You'll get along best with people who <br>appeal to your more analytical side, today. Surprisingly, all…"
+let libra = "Pick a cultural event that's coming up <br>and get some tickets for it today."
+let scorpio = "Someone will challenge a belief that <br>you've held for a very long time today—and they will say an…"
+let sagittarius = "Someone in your life needs to step up <br>and take on more responsibility—and you need to tell them to...."
+let copricorn = "Breaking the rules is not always a bad <br>thing—especially if the rules limit your creativity."
+let aquarius = "Have you been feeling a bit bored with your <br>life lately? Well, good news! Today offers you a great…"
+let pisces = "Communication is very important today—written,<br> spoken, and even nonverbal body language will all…"
 
 
 function myZodiacSign() {
@@ -67,7 +67,8 @@ function myZodiacSign() {
         description.innerHTML = pisces
     } else {
         image.src = ""
-        title.innerHTML = "Please write your month"
+        title.innerHTML = "Please write your Birthday month!"
         description.innerHTML = ""
     }
 }
+
