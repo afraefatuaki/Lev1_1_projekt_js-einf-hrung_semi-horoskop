@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+/* font-family: 'IBM Plex Sans', sans-serif;*/
 body{
+	font-family: 'IBM Plex Sans', sans-serif; 
     background: url("../img/atrologia.jpeg") center/cover no-repeat;
     margin: 0px;
-    height: 40vh;
+    height: 60vh;
 }
 section{
-   margin-top: 22%;
+   margin-top: 12%;
     text-align: center;
 }
 textarea{
@@ -13,13 +16,12 @@ textarea{
 }
 .input{
     position: relative;
-    background: linear-gradient(21deg, #10abff, #1beabd);
+  
     padding: 3px;
     display: inline-block;
     border-radius: 9999em;
 }
 textarea {
-    position: relative;
 	display: inherit;
 	border-radius: inherit;
 	margin: 0;
@@ -33,29 +35,25 @@ textarea:focus + .this{
 	transform: scale(1);
 }
 .this{
-    
-		
-	transform: scale(.993, .94); 
-	transition: transform .5s, opacity .25s;		opacity: 0;
+    transform: scale(.993, .94); 
+	opacity: 0;
 	position:absolute;
 	z-index: 0; 
 	margin:4px; 
 	left:0;
-	top:0;
+	top:-11%;
 	right:0;
 	bottom:0;
 	border-radius: inherit;
 	pointer-events: none; 
 	box-shadow: inset 0 0 0 3px #fff,
 	0 0 0 4px #fff,
-	3px -3px 30px #1beabd, 
-	-3px 3px 30px #10abff;
+	3px -3px 30px #ea5d1b, 
+	-3px 3px 30px #ff4010;
 	
 }
 
 
 
-input{
-    margin-top: 5%;
-}
+
 
